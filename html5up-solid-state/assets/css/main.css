@@ -32,21 +32,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.button{
-	text-align: center;
+
+.row .registerBtn {
+	background-color: rgba(40, 108, 209, 0.836);
+	margin-right: 5px;
 }
-.btn1 {
-	width: 300px;
-	height: 40px;
-	display: inline-block;
-	position: relative;
-	background-color: lightblue;
-}
-.btn2 {
-	width: 300px;
-	height: 40px;
-display: inline-block;
-position: relative;
+.learnBtn {
+	margin-left: 5px;;
 }
 
 ol, ul {
@@ -3413,6 +3405,7 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			text-align: center;
 		}
 
 			#banner .logo .icon {
@@ -3449,7 +3442,10 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			text-align: center;
 		}
+
+
 
 		#banner p {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
@@ -3475,6 +3471,8 @@ input, select, textarea {
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			color: whitesmoke;
+			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -4039,6 +4037,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		padding-bottom: 1px;
 	}
 
 		#footer .inner > * {
@@ -4081,6 +4080,11 @@ input, select, textarea {
 
 				#footer .inner .copyright li a {
 					color: inherit;
+				}
+
+				#footer .copyright {
+					text-align: center;
+					color: whitesmoke;
 				}
 
 	@media screen and (max-width: 1280px) {
