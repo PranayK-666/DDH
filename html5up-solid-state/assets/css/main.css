@@ -32,21 +32,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.button{
-	text-align: center;
+
+.row .registerBtn {
+	background-color: rgba(40, 108, 209, 0.836);
+	margin-right: 5px;
 }
-.btn1 {
-	width: 300px;
-	height: 40px;
-	display: inline-block;
-	position: relative;
-	background-color: lightblue;
-}
-.btn2 {
-	width: 300px;
-	height: 40px;
-display: inline-block;
-position: relative;
+.learnBtn {
+	margin-left: 5px;;
 }
 
 ol, ul {
