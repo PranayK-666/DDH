@@ -38,7 +38,8 @@ body {
 	margin-right: 5px;
 }
 .learnBtn {
-	margin-left: 5px;;
+	padding: 2% 1% 2% 1%  ;
+	overflow: hidden;
 }
 @font-face {
 	font-family: lb;
