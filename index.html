@@ -10,6 +10,23 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			@font-face {
+				font-family: lb;
+				src: url(fonts/Lato-Black.ttf);
+			}
+			@font-face {
+				font-family: lr;
+				src: url(fonts/Lato-Regular.ttf);
+			}
+			.major {
+
+				font-family: "lb";
+			}
+			p{
+				font-family: "lr";
+			}
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	</head>
@@ -20,7 +37,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt" >
-						<h1  ><a href="index.html">Delhi Design Hackathon</a></h1>
+						<h1 style="font-family: lb; margin-top: 1%;"><a href="index.html">Delhi Design Hackathon</h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -31,7 +48,7 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a text-color="white" href="#">Home</a></li>
+								<li><a text-color="white" href="#banner">Home</a></li>
 								<li><a color="white" href="#about">About Us</a></li>
 								<li><a color="white" href="#schedule">Schedule</a></li>
 								<li><a color="white" href="#judges">Judges</a></li>
@@ -45,7 +62,7 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2><strong>Delhi Design Hackathon</strong></h2>
+							<h2 class="major">Delhi Design Hackathon</h2>
 							<p>Delhi Design Hackathon (DDH) is Delhi’s biggest
 								overnight UI/UX Design Hackathon which witnesses
 								participants from all over India every year during the
@@ -67,7 +84,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/2.jpeg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">About The Hackathon</h2>
+										<h2 class="major" style="font-family: 'Lato Black';">What is DDH?</h2>
 										
 										<p align="justify">During the event, school/college students team up and
 											collaborate on Designing creative solutions to the given
@@ -89,6 +106,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/1.jpeg" alt="" /></a>
 									<div class="content">
+										<h2 class="major">Why Attend DDH?</h2>
 										<!-- <h2 class="major">Schedule</h2> -->
 										<!-- <h3>14th & 15th february</h3> -->
 										<p align="justify">The event ends with presenting a high-fidelity Prototype of the
@@ -112,7 +130,7 @@
 									<!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
 									<div class="content">
 										<h2 align="left" class="major">Schedule</h2>
-										<p align="left">14th & 15th february</p>
+										<p align="left" style="color: white">14th & 15th february</p>
 										<!-- <a href="#" class="special">Learn more</a> -->
 									</div>
 								</div>
@@ -172,7 +190,7 @@
 					<section id="portfolio" id="sponsor">
 						<div class="row">
 						   <div class="col-md-12">
-							 <h2 class="wow bounceIn" align="center" data-wow-offset="50" data-wow-delay="0.3s"><span>OUR SPONSORS</span></h2>
+							 <h2 class="major wow bounceIn" align="center" data-wow-offset="50" data-wow-delay="0.3s"><span>OUR SPONSORS</span></h2>
 						   </div>
 						 </div>
 						   <div class="col-xs-12 wow fadeIn" align="center" data-wow-offset="30" data-wow-delay="0.6s">
@@ -271,7 +289,7 @@
 						</div>
 					</section>
 
-			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

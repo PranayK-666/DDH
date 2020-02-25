@@ -67,7 +67,10 @@
 	-ms-animation: spinner-rotate 2s ease-in-out infinite;
 	-o-animation: spinner-rotate 2s ease-in-out infinite;
 }
+.major {
+	font-family: "Lato Black";
 
+}
 .spinner {
 	animation: spinner-color 8s ease-in-out infinite, spinner-dash 2s ease-in-out infinite;
 	-webkit-animation: spinner-color 8s ease-in-out infinite, spinner-dash 2s ease-in-out infinite;
@@ -194,7 +197,7 @@ section.single-hero {
 	/* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0.5) 32%, rgba(0, 0, 0, 1) 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
+	filterprogid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
 	/* IE6-9 */
 	width: 100%;
 	height: 100%;
@@ -1145,7 +1148,7 @@ ul.social-icons {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
-	-o-border-radius: : 50%;
+	-o-border-radius:  50%;
 	color: #ffffff;
 	display: inline-block;
 	height: 40px;
