@@ -40,7 +40,22 @@ body {
 .learnBtn {
 	margin-left: 5px;;
 }
+@font-face {
+	font-family: lb;
+	src: url(fonts/Lato-Black.ttf);
+}
+@font-face {
+	font-family: lr;
+	src: url(fonts/Lato-Regular.ttf);
+}
+.major {
 
+	font-family: "lb";
+}
+p{
+	font-family: "lr";
+	color: white;
+}
 ol, ul {
 	list-style: none;
 }
