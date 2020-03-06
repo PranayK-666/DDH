@@ -3313,9 +3313,14 @@ input, select, textarea {
 			width: 18em;
 		}
 
+		#menu .inner li a {
+			color: rgba(255, 255, 255, 0.85);
+		}
+
 		#menu h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			padding-bottom: 1em;
+			font-weight: 800;
 		}
 
 		#menu .close {
@@ -3395,7 +3400,7 @@ input, select, textarea {
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
-			opacity: 1;
+			opacity: 0.7;
 		}
 
 /* Banner */
@@ -4100,7 +4105,7 @@ input, select, textarea {
 
 				#footer .copyright {
 					text-align: center;
-					color: whitesmoke;
+					color: rgba(255, 255, 255, 0.55);
 				}
 
 	@media screen and (max-width: 1280px) {
